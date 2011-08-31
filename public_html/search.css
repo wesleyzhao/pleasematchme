@@ -1,0 +1,83 @@
+/*
+CSS stylesheet for PleaseMatchMe
+Sarah Lim
+Ajay Mehta
+
+Tess Rinearson
+2011
+*/
+
+/* Search page */
+
+#results-container { 
+	width:275px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#results-container-networks{
+	margin-left:50px;
+	margin-right:auto;
+}
+
+#results-container-networks img {
+	padding-left = 50px;
+}
+
+.result-name {
+	float:right;
+	
+}
+
+.result-name a:link {
+	color: #0073D2;
+}
+
+.result-name a:visited {
+	color: #0073D2;
+}
+
+.result-name-network {
+
+}
+
+.result-name-network a:link {
+	color: #0073D2;
+}
+
+.result-name-network a:visited { 
+	color: #0073D2;
+}
+
+.one-result{
+	margin:10px;
+}
+
+.result-image{
+	margin:5px;
+}
+
+
+.result-name a:hover{
+	text-decoration:underline;
+}
+
+#keywords {
+	margin-left:50px;
+    margin-right:auto;
+    margin: 0px 5px 15px 0px;
+    border:2px groove black; border-radius:5px 5px 5px 5px; -moz-border-radius: 5px 5px 5px 5px; -khtml-border-radius: 5px 5px 5px 5px; -webkit-border-radius: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 0px;
+    color: rgba(153,153,153);
+    background: rgba(230,230,230,1);
+    width:300px;
+    text-align: center;
+}
+
+#searching{
+	margin-left:50px;
+}
+
+#wrapper{
+	min-height: auto;
+}

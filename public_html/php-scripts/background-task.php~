@@ -1,0 +1,12 @@
+<?php
+/* Background Task: This script is intended to be invoked by the web
+ * front-end; it should be called as a background process. It should
+ * probably not be in the web directory to prevent users from
+ * accidentally running it. See
+ * http://nsaunders.wordpress.com/2007/01/12/running-a-background-process-in-php/
+ */
+
+sleep(10);
+file_put_contents("background-script-output.txt", "Success!");
+
+?>

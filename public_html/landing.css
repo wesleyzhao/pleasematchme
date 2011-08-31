@@ -1,0 +1,25 @@
+h3, #invites{
+  margin: 0 auto;
+  width: 500px;
+  color: #646464;
+  font-size: 20px;
+  font-weight: 800;
+  
+}
+
+h3{
+  
+  border: solid 2px #646464;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  padding: 10px;
+}
+
+#landing1{
+  margin-top: 25px;
+}
+
+#invites{
+  margin-top: 20px;
+}
+

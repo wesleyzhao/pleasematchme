@@ -1,0 +1,97 @@
+/*
+CSS stylesheet for PleaseMatchMe
+Sarah Lim
+Ajay Mehta
+
+Tess Rinearson
+2011
+*/
+
+
+/* Profile page */
+
+a {
+	color: #0073D2;
+}
+
+#inner_wrapper{
+	margin: 10px auto;
+	width: 600px;
+	text-align: center;
+	
+}
+
+#profile-name{
+	padding: 5px 5px 15px 5px;
+	text-align: center;
+	
+}
+
+.profile-image{
+	max-height:200px;
+}
+
+#post-to{
+	margin-top:20px;
+	border-color:#0073D2;
+	border:3px outset; border-radius:10px 10px 10px 10px; -moz-border-radius: 10px 10px 10px 10px; -khtml-border-radius: 10px 10px 10px 10px; -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.match-image{
+	max-height:200px;
+}
+
+.match-count{
+	padding: 0px 5px 5px 5px;
+	text-decoration: none;
+	
+}
+
+.match-name a{
+	padding: 5px 5px 5px 5px;
+	font-size: 1.17em;
+	color: #0073D2;
+}
+
+.match-name a:hover{
+	text-decoration:underline;
+}
+
+.match-name a:visited{
+	color: #0073D2;
+}
+
+#matches-container {
+	width:300px;
+	height:auto;
+	text-align:center;
+	margin: 0px 0px 20px auto;
+	display: block;
+}
+
+.one-match {
+	margin: 20px 0px 20px 0px;
+}
+
+#left-profile {
+	margin: 0;
+	padding: 5px;
+	height: 250px;
+	width:250px;
+}
+
+#right-matches{
+	width:300px;
+	height:auto;
+	margin: -200px 0px 10px auto;
+	
+}
+
+#post-to{ /*for sharing with friends on facebook*/
+	float: left;
+	background-image: url('images/fb_invite.png');
+	background-repeat: no-repeat;
+	padding-left: 53px;
+	text-align: left;
+	min-height:48px;
+}

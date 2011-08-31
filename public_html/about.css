@@ -1,0 +1,37 @@
+/*
+CSS stylesheet for PleaseMatchMe
+Tess Rinearson
+2011
+*/
+
+
+/* About page */
+
+.one-profile{
+	padding: 20px;
+	
+}
+
+.profile-pic{
+	width: 220px;
+	float: left;
+	margin: 10px;
+	margin-right: 30px;
+}
+
+.bio{
+	width: 700px;
+	font-size: 20px;
+	padding: 5px 20px;
+}
+
+.profile-name{
+	font-size: 24px;
+	padding-top: 20px;
+	color: #00ca00;
+	font-weight: 800;
+}
+
+#wrapper{
+	min-height: 800px;
+}

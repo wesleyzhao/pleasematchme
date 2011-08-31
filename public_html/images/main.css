@@ -1,0 +1,401 @@
+/*
+CSS stylesheet for PleaseMatchMe
+Sarah Lim
+Ajay Mehta
+Tess Rinearson
+2011
+*/
+
+/* reset body */
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: url("images/background.png") repeat-x;
+  background-color: #92d2e9;
+}
+
+
+/*rest of declarations are now alphabetical, regardless of class or otherwise*/
+
+#about-image{
+	text-align:center;
+}
+
+
+body, p, h3 {
+	color: black;
+	font-family: "helvetica";
+	}
+	
+B {
+	color: #FFF;
+	font-family: Georgia, serif;
+}
+	
+a:link {
+	
+	text-decoration: none;
+	}
+	
+a:visited {
+	color: #dddddd;
+	text-decoration: none;
+	}
+	
+a:hover {
+	text-decoration:underline;
+}
+
+a img {
+	border:0;
+}
+
+a.emph{
+  color: #2c9fff;
+}
+
+a.emph:hover{
+  text-decoration: none;
+  color: #989898;
+}
+
+#bottom-buttons-container{
+	display:inline;
+	padding-bottom:40px;
+}
+
+#container {
+	float: left;
+	}
+	
+#description {
+	text-align:justify;
+	width:480px;
+}
+	
+
+.emph{
+  color: #0073d2;
+  font-weight: 800;
+}
+
+#fb_bar{
+  width: 400px;
+  margin: 20px auto;
+  text-align: center;
+  display: block;
+	  
+  }
+  
+.featured{
+  max-width: 100%;
+  height: 180px;
+  border: solid #8D8D8D 2px;
+  vertical-align: middle;
+}
+
+#footer p {
+	margin: 0;
+	padding: 10px;
+	font-family: helvetica, sans-serif;
+	font-size: small;
+	font-variant: small-caps;
+	text-align: center;
+	color: white;
+	}
+
+
+#footer {
+	clear: both;
+	width: 800px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom: 15px;
+}
+
+#footer a:hover {
+	text-decoration:underline;
+}  
+ 
+  
+#game-container{
+	width:800px;
+	margin-bottom:0px;
+	height:250px;
+	
+}
+  
+#game-message{
+	color: #FFF;
+	text-decoration: none;
+	font-size: 1.17em;
+	font-weight:bold;
+	display:inline;
+}
+
+#guy-name, #girl-name {
+	padding: 10px;
+	font-family: helvetica, arial, sans-serif;
+	font-size: large;
+	font-weight: 800;
+	color: #646464;
+	text-align: center;
+	}
+  
+h1{
+  display: none;
+}
+
+h2{
+  margin: 0;
+  color: #0073d2;
+}
+
+#header {
+	text-align: center;
+	}
+
+#header h3 {
+	margin: 0;
+	padding: 0;
+	font-family: Georgia, serif;
+	font-size: medium;
+	}
+
+.inherit{
+  text-decoration: inherit;
+  color: inherit;
+}
+
+#instruction{
+  display: block;
+  position: relative;
+	width:500px;
+	height: auto;
+	text-align:center;
+	/*border: 2px solid #8D8D8D;
+	border-radius:10px;
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	-webkit-border-radius: 10px;*/
+	margin: auto;
+	margin-top: 0px;
+	padding:5px;
+	color: black;
+	font-weight: 800;
+	text-align: center;
+	
+}
+
+.invis{
+  display: none;
+}
+
+#left-girl {
+	margin: 0;
+	padding: 20px 20px 0px 20px;
+	float: left;
+	height: 230px;
+	overflow: auto;
+	width:280px;
+	text-align: center;
+	padding-right: 0;
+	}
+	
+#login_top{
+  color: white;
+  width: 800px;
+  margin: 10px 10px 0 10px;
+  padding: 0 10px;
+  height: auto;
+  padding-left: 20px;
+  font-size: 14px;
+	
+}
+
+#logo {
+	padding-bottom: 0;
+	padding-top: 10px;
+	padding-right:30px;
+	}
+	
+	
+#match-bar {
+	clear: both;
+	text-align: center;
+	padding-top:30px;
+	}
+	
+#message {
+	padding: 0px 0px 0px 15px;
+	text-align: center;
+	text-decoration: none;
+	font-weight:bold;
+	margin-top: -10px;
+	
+}
+
+#networks {
+  border: 2px solid #646464;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  margin: 10px auto;
+  width: 700px;
+  text-align: center;
+  padding: 5px 0;
+}
+
+#profile-picture-logo {
+	text-align:center;
+	width:800px;
+	clear:both;
+}
+
+
+#right-boy {
+	margin: 0;
+	padding: 20px 20px 0px 20px;
+	float: right;
+	width:280px;
+	height:230px;
+	overflow: auto;
+	text-align: center;
+	padding-left: 0;
+	}
+
+/*.searchbox{
+  background: white;
+  color: black;
+  width: 190px;
+  height: 16px;
+  margin: 0;
+  margin-right: 5px;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  padding-left: 4px;
+  font-size: 14px;
+
+} 
+
+
+#searchdiv, #searchform{
+	width:400px;
+	text-align: right;
+	display:inline;
+	position: relative;
+	color: white;
+	float: right;
+	margin: 0;
+}
+
+#searchdiv{
+  padding: 0px 5px 0px 0px;
+  margin-top:-28px;
+  
+}
+
+#searchform{
+  display: inline;
+  width: auto;
+  padding-left: 20px;
+  background: url("images/searchw.png") no-repeat;
+}should you ever want to implement a search form at the top, this is how it would begin*/
+
+#shuffle-bar {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	float: right;
+	text-align: center;
+	width: 180px;
+	}
+	
+#topbar{
+  width: 800px;
+  margin: 0 auto;
+  height: 25px;
+}
+
+#wrapper {
+	width: 800px;
+	margin: 5px auto 5px auto;
+	height: auto;
+	background-color: white;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	padding-bottom: 10px;
+}
+
+
+
+/* match, shuffle and search buttons */	
+	
+#match-bar p a.match {
+	display: block;
+	width: 180px; height: 38px;
+	background: url(images/match3.png);
+	background-position: top;
+	margin-left: auto;
+	margin-right: auto;
+	/*border: 2px solid #8D8D8D;
+	border-radius: 5px;
+	-moz-border-radius: 5px;*/
+}
+
+#match-bar p a.match:hover {
+	background-position: bottom;
+}
+
+#shuffle-bar p a.shuffle {
+	display: block;
+	width: 180px; height: 38px;
+	background-image: url(images/shuffle2.png);
+	background-position: top;
+	background-repeat: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#shuffle-bar p a.shuffle:hover{
+	background-position: bottom;
+}
+
+#search-bar a.search {
+	display: block;
+	width: 500px; height: 38px;
+	background-image: url(images/search5.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	padding-left: 40px;
+	font-family: helvetica, sans-serif;
+	font-weight: 800;
+	font-size: 32px;
+	color: #2c9fff;
+	text-decoration: none;
+	padding-top: 3px;
+	
+}
+
+#search-bar a.search:hover{
+  background-position: bottom left;
+  color: #ff00b2;
+}
+
+ 
+/*  IE fixes */
+ 
+#footer {
+	height: 40px;
+	
+	}
+* html dl.feature { /* for IE5+6 */
+	height: 1%; 
+	}
+*:first-child+html .feature { /* for IE7 */
+	min-height: 1px; 
+	} 

@@ -1,0 +1,75 @@
+/*
+CSS stylesheet for PleaseMatchMe
+Sarah Lim
+Ajay Mehta
+
+Tess Rinearson
+2011
+*/
+
+
+/* Profile page */
+
+#profile-name{
+	padding: 5px 5px 15px 5px;
+	text-align: center;
+	color: #FFF;
+	font-size: 1.17em;
+	font-weight:bold;
+	
+}
+
+.profile-image{
+	max-height:200px;
+}
+
+.match-image{
+	max-height:200px;
+}
+
+.match-count{
+	padding: 0px 5px 5px 5px;
+	color: #FFF;
+	text-decoration: none;
+	
+}
+
+.match-name{
+	padding: 5px 5px 5px 5px;
+	color: #FFF;
+	font-size: 1.17em;
+}
+
+.match-name a:hover{
+	text-decoration:underline;
+}
+
+#matches-container {
+	width:480px;
+	height:auto;
+	text-align:center;
+	margin: 0px 0px 20px 0px;
+	color: #FFF;
+	float:right;
+	display:inline;
+}
+
+.one-match {
+	margin: 20px 0px 20px 0px;
+}
+
+#left-profile {
+	margin: 0;
+	padding: 5px;
+	float: left;
+	height: 250px;
+	width:200px;
+}
+
+#right-matches{
+	width:480px;
+	height:auto;
+	margin: 0px 0px 20px 0px;
+	color: #FFF;
+	float:right;
+}

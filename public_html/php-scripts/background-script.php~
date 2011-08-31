@@ -1,0 +1,5 @@
+<?php
+/* This script is intended to be invoked by another script, probably
+ * in response to a user request. It should run in the background. */
+
+?>
